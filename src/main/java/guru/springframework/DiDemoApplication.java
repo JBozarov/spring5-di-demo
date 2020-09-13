@@ -20,6 +20,8 @@ public class DiDemoApplication {
 		FakeDataSource fakeDataSource = (FakeDataSource) ctx.getBean(FakeDataSource.class); 
 		
 		System.out.println(fakeDataSource.getUser());
+
+		System.out.println(fakeDataSource.toString());
 		
 		FakeJmsBroker fakeJmsBroker = (FakeJmsBroker) ctx.getBean(FakeJmsBroker.class); 
 		
